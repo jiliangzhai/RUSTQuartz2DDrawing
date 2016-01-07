@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  View1.h
 //  Quartz2DDrawingDemo
 //
 //  Created by rust_33 on 16/1/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UINavigationController
-
+@interface View1 : UIView
 
 @end
-

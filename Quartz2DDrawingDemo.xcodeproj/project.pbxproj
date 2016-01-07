@@ -15,6 +15,13 @@
 		DE4496F71C3BED2B00D690A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4496F51C3BED2B00D690A4 /* LaunchScreen.storyboard */; };
 		DE4497021C3BED2B00D690A4 /* Quartz2DDrawingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4497011C3BED2B00D690A4 /* Quartz2DDrawingDemoTests.m */; };
 		DE44970D1C3BED2B00D690A4 /* Quartz2DDrawingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44970C1C3BED2B00D690A4 /* Quartz2DDrawingDemoUITests.m */; };
+		DE44971D1C3BEE5B00D690A4 /* ExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44971C1C3BEE5B00D690A4 /* ExamplesTableViewController.m */; };
+		DE4497201C3BEEEF00D690A4 /* ExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44971F1C3BEEEF00D690A4 /* ExamplesViewController.m */; };
+		DE4497231C3BF2C100D690A4 /* View1.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4497221C3BF2C100D690A4 /* View1.m */; };
+		DE61890C1C3CA2E8003FA5C8 /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61890B1C3CA2E8003FA5C8 /* View2.m */; };
+		DE61890F1C3CAEB9003FA5C8 /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61890E1C3CAEB9003FA5C8 /* View3.m */; };
+		DE6189111C3CB159003FA5C8 /* boy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE6189101C3CB159003FA5C8 /* boy.jpg */; };
+		DE6189141C3CB673003FA5C8 /* View4.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6189131C3CB673003FA5C8 /* View4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		DE4497081C3BED2B00D690A4 /* Quartz2DDrawingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DDrawingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE44970C1C3BED2B00D690A4 /* Quartz2DDrawingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DDrawingDemoUITests.m; sourceTree = "<group>"; };
 		DE44970E1C3BED2B00D690A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE44971B1C3BEE5B00D690A4 /* ExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesTableViewController.h; sourceTree = "<group>"; };
+		DE44971C1C3BEE5B00D690A4 /* ExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesTableViewController.m; sourceTree = "<group>"; };
+		DE44971E1C3BEEEF00D690A4 /* ExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesViewController.h; sourceTree = "<group>"; };
+		DE44971F1C3BEEEF00D690A4 /* ExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesViewController.m; sourceTree = "<group>"; };
+		DE4497211C3BF2C100D690A4 /* View1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1.h; sourceTree = "<group>"; };
+		DE4497221C3BF2C100D690A4 /* View1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1.m; sourceTree = "<group>"; };
+		DE61890A1C3CA2E8003FA5C8 /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2.h; sourceTree = "<group>"; };
+		DE61890B1C3CA2E8003FA5C8 /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2.m; sourceTree = "<group>"; };
+		DE61890D1C3CAEB9003FA5C8 /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
+		DE61890E1C3CAEB9003FA5C8 /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
+		DE6189101C3CB159003FA5C8 /* boy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boy.jpg; sourceTree = "<group>"; };
+		DE6189121C3CB673003FA5C8 /* View4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View4.h; sourceTree = "<group>"; };
+		DE6189131C3CB673003FA5C8 /* View4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +121,10 @@
 		DE4496E61C3BED2B00D690A4 /* Quartz2DDrawingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DE4497241C3BF2CE00D690A4 /* views */,
+				DE44971A1C3BEE0D00D690A4 /* controllers */,
 				DE4496EA1C3BED2B00D690A4 /* AppDelegate.h */,
 				DE4496EB1C3BED2B00D690A4 /* AppDelegate.m */,
-				DE4496ED1C3BED2B00D690A4 /* ViewController.h */,
-				DE4496EE1C3BED2B00D690A4 /* ViewController.m */,
 				DE4496F01C3BED2B00D690A4 /* Main.storyboard */,
 				DE4496F31C3BED2B00D690A4 /* Assets.xcassets */,
 				DE4496F51C3BED2B00D690A4 /* LaunchScreen.storyboard */,
@@ -117,6 +137,7 @@
 		DE4496E71C3BED2B00D690A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE6189101C3CB159003FA5C8 /* boy.jpg */,
 				DE4496E81C3BED2B00D690A4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +159,34 @@
 				DE44970E1C3BED2B00D690A4 /* Info.plist */,
 			);
 			path = Quartz2DDrawingDemoUITests;
+			sourceTree = "<group>";
+		};
+		DE44971A1C3BEE0D00D690A4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE4496ED1C3BED2B00D690A4 /* ViewController.h */,
+				DE4496EE1C3BED2B00D690A4 /* ViewController.m */,
+				DE44971B1C3BEE5B00D690A4 /* ExamplesTableViewController.h */,
+				DE44971C1C3BEE5B00D690A4 /* ExamplesTableViewController.m */,
+				DE44971E1C3BEEEF00D690A4 /* ExamplesViewController.h */,
+				DE44971F1C3BEEEF00D690A4 /* ExamplesViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		DE4497241C3BF2CE00D690A4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DE4497211C3BF2C100D690A4 /* View1.h */,
+				DE4497221C3BF2C100D690A4 /* View1.m */,
+				DE61890A1C3CA2E8003FA5C8 /* View2.h */,
+				DE61890B1C3CA2E8003FA5C8 /* View2.m */,
+				DE61890D1C3CAEB9003FA5C8 /* View3.h */,
+				DE61890E1C3CAEB9003FA5C8 /* View3.m */,
+				DE6189121C3CB673003FA5C8 /* View4.h */,
+				DE6189131C3CB673003FA5C8 /* View4.m */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6189111C3CB159003FA5C8 /* boy.jpg in Resources */,
 				DE4496F71C3BED2B00D690A4 /* LaunchScreen.storyboard in Resources */,
 				DE4496F41C3BED2B00D690A4 /* Assets.xcassets in Resources */,
 				DE4496F21C3BED2B00D690A4 /* Main.storyboard in Resources */,
@@ -270,8 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6189141C3CB673003FA5C8 /* View4.m in Sources */,
+				DE61890F1C3CAEB9003FA5C8 /* View3.m in Sources */,
+				DE4497231C3BF2C100D690A4 /* View1.m in Sources */,
+				DE4497201C3BEEEF00D690A4 /* ExamplesViewController.m in Sources */,
 				DE4496EF1C3BED2B00D690A4 /* ViewController.m in Sources */,
+				DE61890C1C3CA2E8003FA5C8 /* View2.m in Sources */,
 				DE4496EC1C3BED2B00D690A4 /* AppDelegate.m in Sources */,
+				DE44971D1C3BEE5B00D690A4 /* ExamplesTableViewController.m in Sources */,
 				DE4496E91C3BED2B00D690A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +552,7 @@
 				DE4497131C3BED2B00D690A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE4497141C3BED2B00D690A4 /* Build configuration list for PBXNativeTarget "Quartz2DDrawingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +561,7 @@
 				DE4497161C3BED2B00D690A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE4497171C3BED2B00D690A4 /* Build configuration list for PBXNativeTarget "Quartz2DDrawingDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +570,7 @@
 				DE4497191C3BED2B00D690A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
